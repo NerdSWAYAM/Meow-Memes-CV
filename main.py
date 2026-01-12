@@ -1,5 +1,6 @@
 """
-Online Cat CV (http.cat)
+Online Cat Mediapipe Program - MeowCV
+
 
 A openCV program that detects faces and displays Tiktok cats.
 
@@ -80,7 +81,7 @@ def main():
             elif cat_glare(face_landmark_points):
                 cat_image = "assets/cat-glare.jpeg"
             else:
-                cat_image = "assets/cat-disgust.jpeg"
+                cat_image = "assets/larry.jpeg"
         
 
             height, width = image.shape[:2]
